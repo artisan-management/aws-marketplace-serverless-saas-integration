@@ -676,7 +676,7 @@ Resources:
           <div class="form-container text-left">
             <div id="form-wrapper">
               <h1>Artisan Edge Platform</h1>
-              <form class="form-signin" id="subscription-form">
+              <form class="form-signin" id="subscription-form" method="POST" enctype="multipart/form-data">
                 <label for="companyName">Organization Name</label>
                 <input
                   type="text"
