@@ -694,6 +694,15 @@ Resources:
                   placeholder="Enter contact name..."
                   required
                 />
+
+                <label for="contactPhone">Primary Contact Phone</label>
+                <input
+                  type="tel"
+                  name="contactPhone"
+                  id="contactPhone"
+                  placeholder="Enter contact phone..."
+                  required
+                />
   
                 <label for="contactEmail">Primary Contact Email Address</label>
                 <input
